@@ -1,0 +1,18 @@
+{
+  "default_strategy": {
+    "type": "probabilistic",
+    "param": 0.1,
+    "operation_strategies": [
+      {
+        "operation": "/HealthCheck",
+        "type": "probabilistic",
+        "param": 0.0
+      },
+      {
+        "operation": "/metrics",
+        "type": "probabilistic",
+        "param": 0.0
+      }
+    ]
+  }
+}
