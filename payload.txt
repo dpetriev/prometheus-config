@@ -1,0 +1,6 @@
+Payload
+{SignatureVersion=1, MessageAttributes={severity={Type=String, Value=P2}}, Type=Notification, TopicArn=***, Message={"receiver": "default","status": "firing","alerts": [{"status": "firing","labels": {"alertname": "ContainerMemoryUsage", "instance": "***:9200", "name": "***", "severity": "warning"},"annotations": {"description": "Container Memory usage is above 80%
+VALUE = 20.4681396484375
+LABELS = map[instance:***:9200 name:***]", "summary": "Container Memory usage (instance ***:9200)"},"startsAt": "2022-11-22 14:32:46.374096027 +0000 UTC","endsAt": "0001-01-01 00:00:00 +0000 UTC","generatorURL": "***","fingerprint": "***"}],"groupLabels": {"alertname": "ContainerMemoryUsage", "instance": "***:9200", "name": "***", "severity": "warning"},"commonLabels": {"alertname": "ContainerMemoryUsage", "instance": "***:9200", "name": "***", "severity": "warning"},"commonAnnotations": {"description": "Container Memory usage is above 80%
+VALUE = 20.4681396484375
+LABELS = map[instance:***:9200 name:***]", "summary": "Container Memory usage (instance ***:9200)"}}, UnsubscribeURL=***, Signature=***, Timestamp=2022-11-22T14:33:16.525Z, SigningCertURL=***, Subject=[FIRING:1], MessageId=***}
